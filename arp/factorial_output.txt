@@ -1,0 +1,7 @@
+Results of different functions for calculating a factorial: 
+Unit: microseconds
+                expr    min      lq     mean  median      uq      max neval
+   Factorial_loop(n)  2.342  2.6935  3.24053  3.1085  3.5390    9.397   100
+ Factorial_reduce(n) 72.746 74.2950 83.47801 75.4000 79.9585  223.128   100
+   Factorial_func(n) 23.768 24.4400 72.05117 25.1955 25.9210 4698.811   100
+    Factorial_mem(n)  2.802  3.2050  3.91425  3.6920  4.3730    8.643   100

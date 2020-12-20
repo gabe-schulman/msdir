@@ -1,0 +1,26 @@
+[1] "LongitudinalData"
+[1] "Longitudinal data with 10 subjects"
+NULL
+[1] "Subject ID: 14"
+`summarise()` regrouping output by 'visit' (override with `.groups` argument)
+# A tibble: 3 x 5
+# Groups:   visit [3]
+  visit bedroom   den `living room` office
+  <dbl>   <dbl> <dbl>         <dbl>  <dbl>
+1     0   NA    NA             2.79  13.3 
+2     1   NA    13.5          NA      4.53
+3     2    4.19  3.78         NA     NA   
+`summarise()` regrouping output by 'visit' (override with `.groups` argument)
+# A tibble: 3 x 4
+# Groups:   visit [3]
+  visit bedroom `family  room` `living room`
+  <dbl>   <dbl>          <dbl>         <dbl>
+1     0    4.79          NA             2.75
+2     1    3.40           8.43         NA   
+3     2   18.6           NA            22.6 
+ID: 44 
+Visit: 0 
+Room: bedroom   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   8.00   31.00   49.00   85.33   74.00 1775.00 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   2.75   15.00   24.00   40.34   39.00 1607.00 
